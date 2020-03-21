@@ -3,8 +3,9 @@
 * {
     margin: auto;
     height: auto;
-    overflow: hidden;
-
+    overflow-x: auto;
+    overflow-y: hidden;
+    box-sizing: border-box;
 }
 
 .container {
@@ -20,6 +21,7 @@
     width: 100vw;
     height: 4vh;
     background-color: darkred;
+    text-align: center;
 }
 
 #Btnhtml {
@@ -65,18 +67,6 @@
     font-weight: bold;
     padding-left: 0.5%;
 }
-
-#view {
-    width: 5vh;
-    height: 2;
-    background-color: goldenrod;
-    position: absolute;
-    left: 50%;
-    top: 0.2%;
-    z-index: 6;
-    display: block;
-}
-
 
 .optoinsMainShow .traing_to_split_css_for_better_reading {}
 
