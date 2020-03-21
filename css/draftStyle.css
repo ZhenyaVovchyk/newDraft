@@ -1,0 +1,43 @@
+.traing_to_split_css_for_better_reading {}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.traing_to_split_css_for_better_reading {}
+
+/* MAIN TABS */
+
+
+.optoinsMainShow .traing_to_split_css_for_better_reading {}
+
+/* BLOCK Editor */
+
+.blocks {}
+
+.txt {}
+
+#html-editor {}
+
+#css-editor {}
+
+#js-editor {}
+
+#console1 {}
+
+#result {}
+
+.traing_to_split_css_for_better_reading {}
+
+/* MODAL_WINDOW */
+
+.traing_to_split_css_for_better_reading {}
