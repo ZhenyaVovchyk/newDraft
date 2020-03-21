@@ -9,7 +9,7 @@
     <title></title>
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="#">
     <link rel="shortcut icon" href="#">
-    <link rel="stylesheet" href="/css/draftStyle.css">
+    <link rel="stylesheet" href="css/draftStyle.css">
     <script src="/js/jQuery_v_3_2_1.js"></script>
     <script src="https://rawgithub.com/ajaxorg/ace-builds/master/src/ace.js" type="text/javascript"
         charset="utf-8"></script>
@@ -17,7 +17,17 @@
 </head>
 
 <body>
-    <div class="container"></div>
+    <div class="container">
+        <div class="blocks">
+            <p id="main"></p>
+            <p id="mainLeft"></p>
+            <p id="mainRight"></p>
+            <div class="txt" id="html-editor"></div>
+            <div class="txt" id="css-editor"></div>
+            <div class="txt" id="js-editor"></div>
+            <iframe frameborder="0" id="result"></iframe>
+        </div>
+    </div>
 </body>
 <script src="/js/draft.js"></script>
 <script src="/js/ace.js"></script>
