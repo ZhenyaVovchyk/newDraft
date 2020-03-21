@@ -3,8 +3,8 @@
 * {
     margin: auto;
     height: auto;
-
     overflow: hidden;
+
 }
 
 .container {
@@ -22,25 +22,59 @@
     background-color: darkred;
 }
 
-#mainLeft {
-    width: 1vw;
-    height: 2vh;
-    background-color: darkred;
+#Btnhtml {
     position: fixed;
     top: 50%;
     z-index: 5;
     cursor: pointer;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 0.5%;
 }
 
-#mainRight {
-    width: 1vw;
-    height: 2vh;
-    background-color: darkred;
+#Btncss {
     position: fixed;
-    top: 50%;
-    right: 0;
+    top: 55%;
     z-index: 5;
     cursor: pointer;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 0.5%;
+}
+
+#Btnjs {
+    position: fixed;
+    top: 60%;
+    z-index: 5;
+    cursor: pointer;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 0.5%;
+}
+
+#BtnRun {
+    position: fixed;
+    top: 45%;
+    z-index: 5;
+    cursor: pointer;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 0.5%;
+}
+
+#view {
+    width: 5vh;
+    height: 2;
+    background-color: goldenrod;
+    position: absolute;
+    left: 50%;
+    top: 0.2%;
+    z-index: 6;
+    display: block;
 }
 
 
@@ -51,6 +85,12 @@
 .blocks {
     width: 100vw;
     height: 100vh;
+}
+
+.txtFull {
+    width: 50vw;
+    height: 100vh;
+    position: absolute;
 }
 
 .txt {
@@ -67,7 +107,12 @@
 
 #console1 {}
 
-#result {}
+#result {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    right: 0;
+}
 
 .traing_to_split_css_for_better_reading {}
 
